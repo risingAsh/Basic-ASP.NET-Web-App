@@ -12,6 +12,17 @@
     
         Welcome to Visual Web Developer<br />
         <br />
+        Enter your name:<br />
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" Text="Display Name" OnClick="Button1_Click" />
+        <br />
+        <br />
+        <asp:Label ForeColor="Purple" ID="Label1" runat="server" Text="Label"></asp:Label>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     
     </div>
     </form>
